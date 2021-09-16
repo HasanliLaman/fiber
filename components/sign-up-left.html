@@ -1,0 +1,57 @@
+<div>
+  <a class="text-dark text-decoration-none fs-2 fw-bold" href="./">Fiber</a>
+  <h1 class="sign-up__header mb-4 mb-md-5">Create your Fiber account</h1>
+
+  <form action>
+    <div class="sign-up__form">
+      <label for="name" class="form-label fw-bold fs-4">Your Name</label>
+      <input
+        type="text"
+        class="form-control p-3 pt-4 px-md-4"
+        placeholder="John Doe"
+        id="name"
+      />
+    </div>
+    <div class="sign-up__form">
+      <label for="email" class="form-label fw-bold fs-4">E-mail</label>
+      <input
+        type="email"
+        class="form-control p-3 pt-4 px-md-4"
+        placeholder="john@example.com"
+        id="email"
+      />
+    </div>
+    <div class="sign-up__form">
+      <label for="password" class="form-label fw-bold fs-4">Password</label>
+      <div class="password-container d-flex align-items-center rounded">
+        <input
+          type="password"
+          class="form-control border-0 p-3 pt-4 px-md-4"
+          id="password"
+          placeholder="At least 8 characters "
+        />
+        <svg class="icon--eye mt-1 mx-3 mx-md-4">
+          <use href="images/sprite.svg#hidepassword"></use>
+        </svg>
+      </div>
+    </div>
+    <div class="form-check sign-up__form">
+      <input type="checkbox" class="form-check-input" id="terms" />
+      <label class="form-check-label fs-4" for="terms"
+        >By creating an account on Fiber, you agree to the
+        <a href="#" class="link--secondary fw-bold">Terms & Conditions</a
+        >.</label
+      >
+    </div>
+    <button
+      type="submit"
+      class="btn btn--secondary sign-up__submit fw-bold py-3 px-4 fs-4 mb-3"
+    >
+      Create Fiber Account
+    </button>
+  </form>
+  <p class="fs-4 text-center">
+    Already have an account?
+    <a href="#" class="link--secondary border-0">Sign in</a>
+  </p>
+</div>

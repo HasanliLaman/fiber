@@ -1,0 +1,12 @@
+{
+  "name": "Fiber",
+  "version": "1.0.0",
+  "description": "Codewell challenge Fiber - <a href=\"\">Live Site</a>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

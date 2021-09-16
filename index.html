@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="With Fiber, you can setup your own personal portfolio in minutes with dozens of premade, beautiful templates."
+    />
+    <meta property="og:title" content="Fiber | Create Portfolio in Minutes" />
+    <meta
+      property="og:description"
+      content="With Fiber, you can setup your own personal portfolio in minutes with dozens of premade, beautiful templates."
+    />
+    <meta property="og:type" content="website" />
+    <!-- <meta property="og:url" content="" /> -->
+    <link rel="icon" href="images/favicon-32x32.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <title>Fiber | Create Portfolio in Minutes</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav
+      class="
+        navbar navbar-expand-md navbar-light
+        pt-4
+        px-5
+        pt-md-5
+        pb-2
+        block--primary
+      "
+    >
+      <div class="container-md">
+        <a class="navbar-brand fs-2 fw-bold" href="./">Fiber</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav nav__content gap-md-3">
+            <li class="nav-item align-self-center">
+              <a class="nav-link" aria-current="page" href="#">Community</a>
+            </li>
+            <li class="nav-item align-self-center">
+              <a class="nav-link" href="#trial">Pricing</a>
+            </li>
+            <li class="nav-item align-self-center">
+              <a class="nav-link" href="#features">Features</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav gap-md-5 nav__sign-up">
+            <li class="nav-item align-self-center fw-bold">
+              <a class="nav-link" href="#">Sign In</a>
+            </li>
+            <li class="nav-item btn--block align-self-center">
+              <a
+                href="sign-up.html"
+                class="
+                  btn btn--secondary btn--block
+                  nav__sign-up
+                  fw-bold
+                  py-3
+                  px-4
+                  fs-4
+                "
+                >Sign Up</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="block--primary px-5" id="hero">
+      <div class="container-md hero">
+        <div
+          class="
+            row
+            align-items-center
+            gap-2 gap-md-0
+            justify-content-center justify-content-md-center
+          "
+        >
+          <div class="col-md-6 order-1 order-md-0 mt-3">
+            <div class="d-none d-lg-flex align-items-center gap-md-2">
+              <svg class="icon--star">
+                <use href="images/sprite.svg#star"></use>
+              </svg>
+              <svg class="icon--star">
+                <use href="images/sprite.svg#star"></use>
+              </svg>
+              <svg class="icon--star">
+                <use href="images/sprite.svg#star"></use>
+              </svg>
+              <svg class="icon--star">
+                <use href="images/sprite.svg#star"></use>
+              </svg>
+              <svg class="icon--star me-3">
+                <use href="images/sprite.svg#star"></use>
+              </svg>
+              <span class="pt-1">Rated 4.8/5 (243 reviews)</span>
+            </div>
+            <h1 class="mt-md-4 my-3">Create your portfolio in minutes.</h1>
+            <p class="text-muted">
+              With Fiber, you can setup your own personal portfolio in minutes
+              with dozens of premade, beautiful templates.
+            </p>
+            <div
+              class="d-flex flex-column flex-md-row align-items-center gap-md-5"
+            >
+              <button
+                class="
+                  btn btn--block btn--secondary
+                  fw-bold
+                  py-3
+                  px-4
+                  mt-2
+                  mb-4
+                  fs-4
+                "
+              >
+                Start Free Trial
+              </button>
+              <a href="#" class="link--secondary fw-bold"> View Examples </a>
+            </div>
+            <div
+              class="
+                d-flex
+                flex-column flex-md-row
+                align-items-start
+                mt-5 mt-md-4
+                text-muted
+                gap-md-4
+              "
+            >
+              <p class="d-flex justify-content-center align-items-center gap-3">
+                <svg class="icon--checkmark">
+                  <use href="images/sprite.svg#Checkmark"></use>
+                </svg>
+                No Credit Card Required
+              </p>
+              <p class="d-flex justify-content-center align-items-center gap-3">
+                <svg class="icon--checkmark">
+                  <use href="images/sprite.svg#Checkmark"></use>
+                </svg>
+                10 Free Templates
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 order-0 order-md-1">
+            <img
+              class="img-fluid"
+              src="images/hero-Illustration.png"
+              alt="Hero illustration"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section class="container-md px-5 px-md-0 section" id="features">
+      <h2 class="text--secondary h2 mb-4 fw-bold">Why Fiber?</h2>
+      <p class="features__why fw-bold">
+        A good portfolio means good employability.
+      </p>
+      <div class="features">
+        <article class="feature">
+          <svg class="icon--feature mb-3">
+            <use href="images/sprite.svg#time"></use>
+          </svg>
+          <h3 class="mt-1 mb-4">Build in minutes</h3>
+          <p class="text-muted">
+            With a selection of premade templates, you can build out a portfolio
+            in less than 10 minutes.
+          </p>
+        </article>
+        <article class="feature">
+          <svg class="icon--feature mb-3">
+            <use href="images/sprite.svg#code"></use>
+          </svg>
+          <h3 class="mt-1 mb-4">Add custom CSS</h3>
+          <p class="text-muted">
+            Customize your personal portfolio even with the ability to add your
+            own custom CSS styles.
+          </p>
+        </article>
+        <article class="feature">
+          <svg class="icon--feature mb-3">
+            <use href="images/sprite.svg#allSizes"></use>
+          </svg>
+          <h3 class="mt-1 mb-4">Responsive</h3>
+          <p class="text-muted">
+            All Fiber templates are fully responsive to ensure the experience is
+            seemless across all devices
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Trial -->
+    <section class="px-5 section" id="trial">
+      <div class="rounded container-md block--secondary">
+        <div
+          class="
+            row
+            trial
+            pt-5 pt-md-0
+            justify-content-md-center
+            align-items-md-center
+          "
+        >
+          <div class="col-lg-5 col-md-6 px-5 pt-3 pt-md-0 pb-md-2 text-light">
+            <h2 class="trial__header my-2 mt-md-0">
+              Diversify your portfolio.
+            </h2>
+            <p>
+              Create an even more impressive portfolio by creating case studies
+              for your projects. Simply follow our step-by-step guide.
+            </p>
+            <button
+              class="btn--block btn btn--accent fw-bold py-3 px-4 fs-4 mt-3"
+            >
+              Start Free Trial
+            </button>
+          </div>
+          <img
+            class="img-fluid col-lg-5 col-md-6 pt-md-5 px-5"
+            src="images/Page Image.png"
+            alt="Portfolio page"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="container-md px-5 px-md-0 section" id="testimonials">
+      <div class="testimonials">
+        <article class="testimonial rounded border" id="sarah">
+          <div class="d-flex flex-row gap-3 align-items-end mb-4">
+            <img
+              src="images/userAvatar.svg"
+              class="icon--user"
+              alt="User Avatar"
+            />
+            <header>
+              <h2 class="h5 text--secondary fw-bold mb-0">Sarah Andrews</h2>
+              <p class="fs-5 mb-0">$100k in revenue</p>
+            </header>
+          </div>
+          <p>
+            Setting up my portfolio with Fiber took no more than 10 minutes.
+            Since then, my portfolio has attracted a lot of clients and made me
+            more than $100k.
+          </p>
+          <button
+            class="btn btn--accent fw-bold py-3 px-4 fs-4 border mt-2 mt-md-3"
+          >
+            View Sarah's Portfolio
+          </button>
+        </article>
+        <article class="testimonial rounded border" id="mathew">
+          <div class="d-flex flex-row gap-3 align-items-end mb-4">
+            <img
+              src="images/userAvatar2.svg"
+              class="icon--user"
+              alt="User Avatar"
+            />
+            <header>
+              <h2 class="h5 text--secondary fw-bold mb-0">Mathew Higgings</h2>
+              <p class="fs-5 mb-0">$20k in revenue</p>
+            </header>
+          </div>
+          <p>
+            I have been getting A LOT of leads ever since I used Fiber's premade
+            templates, now I just need to work on my case studies and I'll be
+            ready to go!
+          </p>
+          <button
+            class="btn btn--accent fw-bold py-3 px-4 fs-4 border mt-2 mt-md-3"
+          >
+            View Mathew's Portfolio
+          </button>
+        </article>
+        <article class="testimonial rounded border" id="janice">
+          <div class="d-flex flex-row gap-3 align-items-end mb-4">
+            <img
+              src="images/userAvatar3.svg"
+              class="icon--user"
+              alt="User Avatar"
+            />
+            <header>
+              <h2 class="h5 text--secondary fw-bold mb-0">Janice Dave</h2>
+              <p class="fs-5 mb-0">$30k in revenue</p>
+            </header>
+          </div>
+          <p>
+            I only just started freelancing this year, and I have already made
+            more than I ever made in my full-time job. The templates are so
+            amazing.
+          </p>
+          <button
+            class="btn btn--accent fw-bold py-3 px-4 fs-4 border mt-2 mt-md-3"
+          >
+            View Janice's Portfolio
+          </button>
+        </article>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="block--primary footer px-5 pb-5">
+      <div class="container-md">
+        <div class="row gap-5 gap-md-0 justify-content-md-between">
+          <article class="col-md-3">
+            <h2 class="h3 fw-bold">Fiber</h2>
+            <p class="text-muted">
+              With Fiber, you can setup your own personal portfolio in minutes
+              with dozens of premade beautiful templates.
+            </p>
+            <p class="text-muted mt-md-4">Made with ❤ in the Netherlands.</p>
+          </article>
+          <ul class="col-md-1">
+            <li><h2 class="h3 fw-bold mb-3">Sitemap</h2></li>
+            <li class="mb-2">
+              <a class="text-decoration-none text-dark text-muted" href="#hero"
+                >Homepage</a
+              >
+            </li>
+            <li class="mb-2">
+              <a class="text-decoration-none text-dark text-muted" href="#trial"
+                >Pricing</a
+              >
+            </li>
+            <li class="mb-2">
+              <a
+                class="text-decoration-none text-dark text-muted"
+                href="#testimonials"
+                >Testimonials</a
+              >
+            </li>
+            <li class="mb-2">
+              <a
+                class="text-decoration-none text-dark text-muted"
+                href="#features"
+                >Features</a
+              >
+            </li>
+          </ul>
+          <ul class="col-md-1">
+            <li><h2 class="h3 fw-bold mb-3">Resources</h2></li>
+            <li class="mb-2">
+              <a class="text-decoration-none text-dark text-muted" href="#"
+                >Support</a
+              >
+            </li>
+            <li class="mb-2">
+              <a class="text-decoration-none text-dark text-muted" href="#"
+                >Contact</a
+              >
+            </li>
+            <li class="mb-2">
+              <a class="text-decoration-none text-dark text-muted" href="#"
+                >FAQ</a
+              >
+            </li>
+          </ul>
+          <ul class="col-md-1">
+            <li><h2 class="h3 fw-bold mb-3">Company</h2></li>
+            <li class="mb-2">
+              <a class="text-decoration-none text-dark text-muted" href="#"
+                >About</a
+              >
+            </li>
+            <li class="mb-2">
+              <a class="text-decoration-none text-dark text-muted" href="#"
+                >Customers</a
+              >
+            </li>
+            <li class="mb-2">
+              <a class="text-decoration-none text-dark text-muted" href="#"
+                >Blog</a
+              >
+            </li>
+          </ul>
+          <ul class="col-md-2">
+            <li><h2 class="h3 fw-bold mb-3">Portfolios</h2></li>
+            <li class="mb-2">
+              <a class="text-decoration-none text-dark text-muted" href="#sarah"
+                >Sarah Andrews</a
+              >
+            </li>
+            <li class="mb-2">
+              <a
+                class="text-decoration-none text-dark text-muted"
+                href="#mathew"
+                >Mathew Higgins</a
+              >
+            </li>
+            <li class="mb-2">
+              <a
+                class="text-decoration-none text-dark text-muted"
+                href="#janice"
+                >Janice Dave</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Credits -->
+    <section class="block--primary px-5 pb-5 text-center text-dark">
+      Challenge by
+      <a
+        class="copyright--link"
+        href="https://www.codewell.cc/challenges/fiber-landing-page--608a7e639691700015db16d1"
+        target="_blank"
+        rel="noopener"
+      >
+        Codewell
+      </a>
+      . Coded by
+      <a
+        class="copyright--link"
+        target="_blank"
+        rel="noopener"
+        href="https://github.com/lmnhsnl"
+      >
+        Laman Hasanli</a
+      >.
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>
