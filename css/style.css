@@ -299,7 +299,7 @@ h3 {
 }
 
 .footer ul a {
-  transition: all 0.5s;
+  transition: all 0.3s;
 }
 
 .footer ul {
@@ -310,7 +310,7 @@ h3 {
 .copyright--link {
   text-decoration: none;
   color: var(--color-secondary);
-  transition: all 0.5s;
+  transition: all 0.3s;
 }
 
 .copyright--link:hover {
