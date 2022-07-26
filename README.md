@@ -6,7 +6,7 @@ This is a solution to the [Fiber Landing Page challenge on Codewell](https://www
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [Screenshot](#screenshots)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -22,9 +22,11 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - Go to Sign up page when Sign up button is clicked
 
-### Screenshot
+### Screenshots
 
-![](./images/screenshot.png)
+![](./images/screenshot1.png)
+
+![](./images/screenshot2.png)
 
 ### Links
 
